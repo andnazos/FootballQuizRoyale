@@ -1,4 +1,6 @@
 Football Quiz Royale
+
+
 ABSTRACT
 
 In this thesis, which was carried out at the Department of Electrical and
