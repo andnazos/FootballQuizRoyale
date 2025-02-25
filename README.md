@@ -3,6 +3,7 @@ Football Quiz Royale
 
 ABSTRACT
 
+
 In this thesis, which was carried out at the Department of Electrical and
 Computer Engineering (ECE) of the University of Peloponnese, which
 belongs to the School of Engineering based in Patras, an Android
@@ -20,3 +21,4 @@ smartphones, tablets, wearables, televisions and other technological
 media.
 
 Link : https://drive.google.com/file/d/1CzrCV8X-Q61aL6E6k67QXZcEsAPD12Oe/view?pli=1
+![Screenshot 2025-02-25 023903](https://github.com/user-attachments/assets/ab1d221f-48aa-4a92-932b-1b046c6d8a5a)
