@@ -20,5 +20,8 @@ in recent years and covers a very large part of the market for
 smartphones, tablets, wearables, televisions and other technological
 media.
 
-Link : https://drive.google.com/file/d/1CzrCV8X-Q61aL6E6k67QXZcEsAPD12Oe/view?pli=1
-![Screenshot 2025-02-25 023903](https://github.com/user-attachments/assets/ab1d221f-48aa-4a92-932b-1b046c6d8a5a)
+Link : https://drive.google.com/file/d/1CzrCV8X-Q61aL6E6k67QXZcEsAPD12Oe/view?pli=1  
+
+![Screenshot 2025-02-25 023903](https://github.com/user-attachments/assets/8f5e38e3-5445-4345-8513-ea4d79dd65ff)
+
+
