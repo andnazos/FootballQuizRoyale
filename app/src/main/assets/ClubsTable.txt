@@ -1,0 +1,20 @@
+1000|What are the top five football leagues in the world?|Premier League, La Liga, Bundesliga, Serie A, Ligue 1|false
+1001|Which team has won the most UEFA Champions League titles?|Real Madrid|false
+1002|Who holds the record for being the all-time leading goal scorer in the English Premier League?|Alan Shearer|false
+1003|Which club has won the most Serie A titles in Italy?|Juventus|false
+1004|Which team holds the record for winning the most Bundesliga titles in Germany?|Bayern Munich|false
+1005|Which country has produced the most UEFA Champions League winners?|Spain|false
+1006|Who is the current reigning champion of the French Ligue 1?|Lille OSC|false
+1007|Which team has won the most UEFA Europa League titles?|Sevilla FC|false
+1008|Who is the all-time leading goal scorer in the UEFA Champions League?|Cristiano Ronaldo|false
+1009|Which club has won the most La Liga titles in Spain?|Real Madrid|false
+1010|Who is the current champion of the Premier League?|Manchester City|false
+1011|Who holds the record for scoring the most goals in a single Bundesliga season?|Gerd Muller|false
+1012|Who holds the record for scoring the most goals in a single La Liga season?|Lionel Messi|false
+1013|Who is the top scorer in Serie A?|Gonzalo Higuain|false
+1014|Who holds the record for scoring the most goals in a single UEFA Champions League season?|Cristiano Ronaldo|false
+1015|Who is the current champion of the Bundesliga?|Bayern Munich|false
+1016|Who holds the record for scoring the most goals in a single Premier League season?|Mohamed Salah|false
+1017|Who is the current champion of Serie A?|Inter Milan|false
+1018|Who is the top scorer in the UEFA Europa League?|Radamel Falcao|false
+1019|Who is the current champion of La Liga?|Atletico Madrid|false

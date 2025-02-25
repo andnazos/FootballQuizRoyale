@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".Settings"
+    android:fitsSystemWindows="true"
+    android:clipToPadding="false"
+    >
+    <RelativeLayout
+        android:id="@+id/top"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin_90dp"
+        android:background="@drawable/gradient"
+        app:layout_constraintTop_toTopOf="parent"
+        >
+
+        <ImageButton
+            android:id="@+id/back_bt"
+            android:layout_width="@dimen/margin_60dp"
+            android:layout_height="@dimen/margin_60dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="@dimen/margin_10dp"
+            android:layout_marginTop="@dimen/margin_10dp"
+            android:background="#004D4D4F"
+            android:onClick="Back"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/back_icon" />
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin_10dp"
+        android:layout_marginTop="@dimen/margin_80dp"
+        android:background="@drawable/shadow"
+        android:elevation="@dimen/margin_8dp"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/mute_bt"
+        android:layout_width="@dimen/margin_60dp"
+        android:layout_height="@dimen/margin_60dp"
+        android:layout_marginTop="@dimen/margin_10dp"
+        android:background="#00FFFFFF"
+        android:onClick="mute"
+        android:scaleType="fitCenter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/unmute" />
+
+    <Button
+        android:id="@+id/save_button"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/margin_55dp"
+        android:layout_marginBottom="@dimen/margin_100dp"
+        android:onClick="save"
+        android:text="SAVE"
+        android:fontFamily="@font/play"
+        android:textSize="@dimen/margin_25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:backgroundTint="@color/grey"
+        android:textColor="@color/orange"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/TimePerQuestion_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_140dp"
+        android:text="Time Per Question"
+        android:paddingLeft="@dimen/margin_10dp"
+        android:paddingRight="@dimen/margin_10dp"
+        android:textColor="@color/white"
+        android:textSize="@dimen/margin_25dp"
+        android:textStyle="bold"
+        android:fontFamily="@font/play"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <SeekBar
+        android:id="@+id/TimePerQuestion_sb"
+        android:layout_width="@dimen/margin_320dp"
+        android:layout_height="@dimen/margin_40dp"
+        android:layout_marginTop="@dimen/margin_45dp"
+        android:max="100"
+        android:progress="40"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintStart_toStartOf="parent"
+        android:background="@drawable/seekbar"
+        android:thumb="@drawable/ball_icon"
+        android:progressTint="@color/white"
+        app:layout_constraintTop_toBottomOf="@+id/TimePerQuestion_tv" />
+
+    <TextView
+        android:id="@+id/TimeInSeconds_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="@dimen/margin_25dp"
+        android:fontFamily="@font/play"
+        app:layout_constraintBottom_toTopOf="@+id/TimePerQuestion_sb"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/QPerCatText_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_50dp"
+        android:text="Questions Per Category"
+        android:paddingLeft="@dimen/margin_10dp"
+        android:paddingRight="@dimen/margin_10dp"
+        android:textColor="@color/white"
+        android:textSize="@dimen/margin_25dp"
+        android:textStyle="bold"
+        android:fontFamily="@font/play"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TimePerQuestion_sb" />
+
+    <SeekBar
+        android:id="@+id/QPerCat_sb"
+        android:layout_width="@dimen/margin_320dp"
+        android:layout_height="@dimen/margin_40dp"
+        android:layout_marginTop="@dimen/margin_45dp"
+        android:max="3"
+        android:progress="2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:background="@drawable/seekbar"
+        android:progressTint="@color/white"
+        android:thumb="@drawable/ball_icon"
+        app:layout_constraintTop_toBottomOf="@+id/QPerCatText_tv" />
+
+    <TextView
+        android:id="@+id/QPerCat_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="@dimen/margin_25dp"
+        android:fontFamily="@font/play"
+        app:layout_constraintBottom_toTopOf="@+id/QPerCat_sb"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageButton
+        android:id="@+id/language_bt"
+        android:layout_width="@dimen/margin_80dp"
+        android:layout_height="@dimen/margin_80dp"
+        android:backgroundTint="#00FFFFFF"
+        android:onClick="language_select"
+        android:scaleType="fitCenter"
+        android:layout_marginTop="@dimen/margin_4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/english" />
+
+    <TextView
+        android:id="@+id/language_tv"
+        android:layout_width="@dimen/margin_50dp"
+        android:layout_height="@dimen/margin_30dp"
+        android:fontFamily="@font/play"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/margin_30dp"
+        android:text="EN"
+        android:textColor="@color/white"
+        android:textSize="@dimen/margin_20dp"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toStartOf="@+id/language_bt"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

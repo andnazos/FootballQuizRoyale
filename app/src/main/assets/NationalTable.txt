@@ -1,0 +1,21 @@
+8000|Which country has won the most FIFA World Cup titles?|Brazil|false
+8001|Who is the all-time leading goal scorer for the German national team?|Miroslav Klose|false
+8002|Which team has won the most Copa America titles?|Uruguay|false
+8003|Who is the current captain of the Argentina national football team?|Lionel Messi|false
+8004|Which country hosted the 2018 FIFA World Cup?|Russia|false
+8005|Which team has won the most UEFA European Championship titles?|Spain|false
+8006|Who is the current head coach of the French national football team?|Didier Deschamps|false
+8007|Which player holds the record for the most goals scored in international football?|Cristiano Ronaldo|false
+8008|Which national team has won the most CONCACAF Gold Cup titles?|Mexico|false
+8009|Who is the all-time leading goal scorer for the Brazilian national team?|Pelé|false
+8010|Which country won the FIFA World Cup in 2010?|Spain|false
+8011|Who is the current captain of the Portugal national football team?|Cristiano Ronaldo|false
+8012|Which team has won the most AFC Asian Cup titles?|Japan|false
+8013|Who is the all-time leading goal scorer for the English national team?|Wayne Rooney|false
+8014|Which country hosted the 2006 FIFA World Cup?|Germany|false
+8015|Which team has won the most Africa Cup of Nations titles?|Cameroon|false
+8016|Who is the current head coach of the German national football team?|Joachim Löw|false
+8017|Which player holds the record for the most assists in a single FIFA World Cup tournament?|Kazuyoshi Miura|false
+8018|Which national team has won the most OFC Nations Cup titles?|New Zealand|false
+8019|Who is the all-time leading goal scorer for the French national team?|Thierry Henry|false
+8020|Which country hosted the 1998 FIFA World Cup?|France|false

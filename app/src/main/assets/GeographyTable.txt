@@ -1,0 +1,22 @@
+3000|In which city is the Ajax team based?|Amsterdam|false
+3001|In which city is the Juventus team based?|Turin|false
+3002|In which city is the Panathinaikos team based?|Athens|false
+3003|In which country was the first World Cup that the Greek National Team participated in held?|Brazil|false
+3004|Which country hosted the Euro 2016 tournament?|France|false
+3005|In which city is the San Siro stadium located?|Milan|false
+3006|In which city is the Maracanã stadium located?|Rio de Janeiro|false
+3007|In which country is the Allianz Arena stadium located?|Germany|false
+3008|In which city was the final of the UEFA Champions League held in the 2022-2023 season?|Istanbul|false
+3009|In which countries was the 2012 UEFA European Championship held?|Poland and Ukraine|false
+3010|True or False: The FIFA World Cup has never been held in Africa.|False|false
+3011|In which stadium was the final of EURO 2004 held?|Estádio da Luz|false
+3012|In which city is the Signal Iduna Park stadium located?|Dortmund|false
+3013|In which city is the Stade de France located?|Paris|false
+3014|Which city is home to the football club Chelsea FC?|London|false
+3015|In which country was the first World Cup held?|Uruguay|false
+3016|Which country hosted the 2018 FIFA World Cup?|Russia|false
+3017|In which city is the Wembley Stadium located?|London|false
+3018|In which city is the Estadio Santiago Bernabeu located?|Madrid|false
+3019|In which country was the Copa America 2021 tournament held?|Brazil|false
+3020|Which country won the UEFA Euro 2020 tournament?|Italy|false
+3021|In which city was the final of the UEFA Champions League held in the 2020-2021 season?|Porto|false
